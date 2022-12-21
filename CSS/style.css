@@ -1,0 +1,130 @@
+body{
+    background-color: cyan;
+}
+  .microscope{
+    position: relative;
+    display: inline-block;
+    width: 525px;
+    height: 525px;
+    background-color: #94A6C0;
+    border-radius: 15px;
+  }
+  
+  .base {
+    position: absolute;
+    width: 185px;
+    top: 353px;
+    left: 130px;
+  }
+
+  .arm {
+    position: absolute;
+    width: 288px;
+    top: 190px;
+    left: 138px;
+  }
+  .bodytube {
+    position: absolute;
+    height: 185px;
+    top: 101px;
+    left: 212px;
+  }
+
+  .eyepiece-tube {
+    position: absolute;
+    width: 105px;
+    top: 37px;
+    left: 322px;
+  }
+
+  .stage-clips{
+    position: absolute;
+    width: 168px;
+    top: 265px;
+    left: 92px;
+  }
+
+  .nosepiece {
+    position: absolute;
+    width: 142px;
+    left: 177px;
+    top: 206px;
+  }
+
+  .coarse-focus {
+    position: absolute;
+    width: 97px;
+    left: 285px;
+    top: 162px;
+  }
+
+  .fine-focus {
+    position: absolute;
+    width: 54px;
+    left: 294px;
+    top: 222px;
+  }
+
+  .arm-joint {
+    position: absolute;
+    width: 64px;
+    left: 232px;
+    top: 409px;
+  }
+
+
+ .illumination-mirror {
+    position: absolute;
+    width: 91px;
+    top: 357px;
+    left: 113px;
+  }
+
+  .base:hover {
+    transform: translate(30vw,0) scale(1.3);
+    transition: 1s ease-in-out;
+  }
+  .arm:hover {
+    transform: translate(30vw,0) scale(1.3);
+    transition: 1s ease-in-out;
+  }
+  .bodytube:hover {
+    transform: translate(30vw,0) scale(1.3);
+    transition: 1s ease-in-out;
+  }
+
+  .eyepiece-tube:hover {
+    transform: translate(30vw,0) scale(1.3);
+    transition: 1s ease-in-out;
+  }
+
+  .stage-clips:hover{
+    transform: translate(30vw,0) scale(1.3);
+    transition: 1s ease-in-out;
+  }
+
+  .nosepiece:hover {
+    transform: translate(30vw,0) scale(1.3);
+    transition: 1s ease-in-out;
+  }
+
+  .coarse-focus:hover {
+    transform: translate(30vw,0) scale(1.3);
+    transition: 1s ease-in-out;
+  }
+
+  .fine-focus:hover {
+    transform: translate(30vw,0) scale(1.3);
+    transition: 1s ease-in-out;
+  }
+
+  .arm-joint:hover {
+    transform: translate(30vw,0) scale(1.3);
+    transition: 1s ease-in-out;
+  }
+
+
+ .illumination-mirror:hover {
+    transform: translate(30vw,0) scale(1.3);
+    transition: 1s ease-in-out;
+  }
